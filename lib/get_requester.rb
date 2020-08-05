@@ -6,10 +6,10 @@ class GetRequester
   attr_accessor :url
   
   def initialize(url)
-    self.url = url
+    @url = url
   end
   
   def get_response_body 
-    uri = URI.parse(self.url)
+    uri = URI.parse(@url)
   end
 end
