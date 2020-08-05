@@ -10,6 +10,6 @@ class GetRequester
   end
   
   def get_response_body 
-    
+    uri = 
   end
 end
